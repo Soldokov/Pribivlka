@@ -7,9 +7,9 @@
 
     <body>
        <ol> <label><b> Остановки: </b></label>
-            <li> Овраг подпольщиков <input type="text" placeholder="Введите время прибытия" ></li> 
-            <li> Университет        <input type="text" placeholder="Введите время прибытия" ></li>
-            <li> Загородный парк    <input type="text" placeholder="Введите время прибытия" ></li>
+            <li> Овраг подпольщиков <input type="text" class="text" placeholder="Введите время прибытия" ></li> 
+            <li> Университет        <input type="text" class="text" placeholder="Введите время прибытия" ></li>
+            <li> Загородный парк    <input type="text" class="text" placeholder="Введите время прибытия" ></li>
         </ol>
 
         <label> Введите номер трамвая:</label><br>
@@ -20,7 +20,9 @@
         <input  type="text" class="text">
         <br>
 
-        
+        <ol id="thisstop">
+            <label> Список прибывающих трамваев</label>
+        </ol>
 
         <button id="sendtram">Отправить трамвай на маршрут</button>
         <br>
