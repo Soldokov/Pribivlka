@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+           Лабораторная работа 4
+        </title>
+        <style>
+            table,tr,th{
+                border: 20px solid khaki;
+                padding: 15px;
+            }
+        </style>
+
+
+
+    </head>
+    <body>
+        <ul> <label> Остановки: </label>
+            <li id="1" onclick="alert('Приветь')"> Овраг подпольщиков <input type='text' placeholder="Введите время прибытия" onclick="AppednList()"></li> 
+            <li> Университет        <input type='text' placeholder="Введите время прибытия" ></li>
+            <li> Загородный парк    <input type='text' placeholder="Введите время прибытия" ></li>
+        </ul>
+
+        <label> Введите номер трамвая:</label><br>
+        <textarea id="L1" rows="1" cols="19"> </textarea>
+        <br>
+
+        <label> Ведите время отправления (чч:мм):</label><br>
+        <textarea rows="1" cols="29"> </textarea>
+        <br>
+
+        <input id="B1" type="button" value="Жать сюда">
+        <br>
+
+        <ul >
+            <label> Список трамваев на маршруте </label>
+            <li id="ListTrams"></li>
+        </ul>
+
+        <table id='table1' onclick="CloseTable()">
+            <tr>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+            </tr>
+
+        </table>
+
+
+
+
+        <script src="Л 4.js">
+            
+        </script>
+    </body>
+</html>
